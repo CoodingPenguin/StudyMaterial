@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Categorization">
+      <UniqueIdentifier>{8ff4969a-19a0-444c-8a2a-45724f86fdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lambda">
+      <UniqueIdentifier>{0c24ce3b-0ce6-423b-ad1f-58e6e814564f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Binding">
+      <UniqueIdentifier>{c06abd1b-29ee-4f36-b5d7-c2214c6eed26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Iterator">
+      <UniqueIdentifier>{9f244575-2f17-4b28-b8c8-53999709d0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SpecializedAlgorithm">
+      <UniqueIdentifier>{d6809590-68b5-4c9b-8dbb-47c3ac0cefad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Miscellaneous">
+      <UniqueIdentifier>{2292eb86-a743-4174-879e-1318939cfd56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReadAlgorithm.cpp">
+      <Filter>소스 파일\Categorization</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteAlgorithm.cpp">
+      <Filter>소스 파일\Categorization</Filter>
+    </ClCompile>
+    <ClCompile Include="SortAlgorithm.cpp">
+      <Filter>소스 파일\Categorization</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaExpression.cpp">
+      <Filter>소스 파일\Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureList.cpp">
+      <Filter>소스 파일\Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaceHolders.cpp">
+      <Filter>소스 파일\Binding</Filter>
+    </ClCompile>
+    <ClCompile Include="InserterIterator.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="istreamIterator.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="ostreamIterator.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseIterator.cpp">
+      <Filter>소스 파일\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="ListAlgorithm.cpp">
+      <Filter>소스 파일\SpecializedAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionalFunc.cpp">
+      <Filter>소스 파일\Binding</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultCaptureMode.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="PreferLambda.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

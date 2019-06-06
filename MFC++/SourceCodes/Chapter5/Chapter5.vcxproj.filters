@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ConditionState">
+      <UniqueIdentifier>{19565a53-305c-4da5-bbea-8ae9be068a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Buffer">
+      <UniqueIdentifier>{0a3b1a7a-665a-48b9-a9dc-0177f57cb914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\File">
+      <UniqueIdentifier>{29c4d4e0-ecfe-4679-8897-b64f2cbcc52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\String">
+      <UniqueIdentifier>{adae2756-8669-4e59-8cff-43dfc161cc58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StreamState.cpp">
+      <Filter>소스 파일\ConditionState</Filter>
+    </ClCompile>
+    <ClCompile Include="Manipulator.cpp">
+      <Filter>소스 파일\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamTie.cpp">
+      <Filter>소스 파일\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>소스 파일\File</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMode.cpp">
+      <Filter>소스 파일\File</Filter>
+    </ClCompile>
+    <ClCompile Include="StringStream.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

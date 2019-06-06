@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Conversion">
+      <UniqueIdentifier>{c96d1113-4170-4fdc-a77e-a854f3cce8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Function">
+      <UniqueIdentifier>{ebc0619c-6c4e-42eb-a20a-72d49f0fd0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Miscellaneous">
+      <UniqueIdentifier>{7269b464-afac-430b-ab20-054597736687}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Casting.cpp">
+      <Filter>소스 파일\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="Operand.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="Sizeof.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="SwitchInit.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstWithFunction.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayWithFunction.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializerList.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnArray.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailingReturnFunction.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoReturnFuntion.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstCastWithFunction.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultArgs.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineFunction.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggingTools.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="PreferAuto.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="DeductionCasting.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroConstInline.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CastingQuiz.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

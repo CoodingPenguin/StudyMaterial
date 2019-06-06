@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\MemberFunc">
+      <UniqueIdentifier>{43cfa5ee-9831-463b-b8d6-7a842bc074fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Constructor">
+      <UniqueIdentifier>{fc8acb2f-9f99-4895-8071-314f8fa0d6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Classes">
+      <UniqueIdentifier>{f25213fd-3721-4519-bb0c-1c7b74cb4196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Miscellaneous">
+      <UniqueIdentifier>{6b1e5a99-82d9-4e0c-9188-157f7e016c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Static">
+      <UniqueIdentifier>{e831a8c5-7cea-4f73-aca9-0959023a63c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Friend">
+      <UniqueIdentifier>{a85acf5e-6655-4429-9715-7dab8f81e85f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ThisInClass.cpp">
+      <Filter>소스 파일\MemberFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Default.cpp">
+      <Filter>소스 파일\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializationOrder.cpp">
+      <Filter>소스 파일\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="ListOrder.cpp">
+      <Filter>소스 파일\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="DelegatingConstructor.cpp">
+      <Filter>소스 파일\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertingConstructor.cpp">
+      <Filter>소스 파일\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="AggregateClass.cpp">
+      <Filter>소스 파일\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantClass.cpp">
+      <Filter>소스 파일\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutable.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMember.cpp">
+      <Filter>소스 파일\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassWithFriend.cpp">
+      <Filter>소스 파일\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionWithFriend.cpp">
+      <Filter>소스 파일\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendScope.cpp">
+      <Filter>소스 파일\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultCtor.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\String">
+      <UniqueIdentifier>{e279836f-a5c9-4a10-9308-e68b98c85664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Arithmetic">
+      <UniqueIdentifier>{4913cacb-62f9-4110-bfb5-feab5fa0b56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Conversion">
+      <UniqueIdentifier>{df72032e-ac55-4f65-9a68-9865e8c49fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Constant">
+      <UniqueIdentifier>{4ead0af4-1fb3-4aca-addf-4a2bfb754689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Initialization">
+      <UniqueIdentifier>{2c8eb5ec-7823-48dd-a877-9d1c289d4fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SeperateCompliation">
+      <UniqueIdentifier>{34cf2713-69a6-4b25-9a5c-b19249069b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CompoundType">
+      <UniqueIdentifier>{31c78636-18f4-44d5-b988-79fd98aae6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Const">
+      <UniqueIdentifier>{8e80dac4-32d0-4832-a78d-7338b83e2780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Miscellaneous">
+      <UniqueIdentifier>{c065d31e-9ba6-4b08-a4fe-9ccee853364f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Auto&amp;Decltype">
+      <UniqueIdentifier>{7b2fc0ce-de20-4bfa-ac1c-9da2eb5e537f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UnicodeString.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="UnicodeCharacter.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeSequence.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecisionProblem.cpp">
+      <Filter>소스 파일\Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="SignedUnsigned.cpp">
+      <Filter>소스 파일\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="ArithmeticConstant.cpp">
+      <Filter>소스 파일\Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterConstant.cpp">
+      <Filter>소스 파일\Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="BuiltInListInitialization.cpp">
+      <Filter>소스 파일\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceA.cpp">
+      <Filter>소스 파일\SeperateCompliation</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceB.cpp">
+      <Filter>소스 파일\SeperateCompliation</Filter>
+    </ClCompile>
+    <ClCompile Include="NullPointer.cpp">
+      <Filter>소스 파일\CompoundType</Filter>
+    </ClCompile>
+    <ClCompile Include="FileConst_SourceA.cpp">
+      <Filter>소스 파일\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="FileConst_SourceB.cpp">
+      <Filter>소스 파일\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="InitializationConst.cpp">
+      <Filter>소스 파일\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="TopLevelLowLevelConst.cpp">
+      <Filter>소스 파일\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitSeperator.cpp">
+      <Filter>소스 파일\Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryLiteral.cpp">
+      <Filter>소스 파일\Constant</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalListInitialization.cpp">
+      <Filter>소스 파일\Initialization</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstexprPart1.cpp">
+      <Filter>소스 파일\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstexprPart2.cpp">
+      <Filter>소스 파일\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableTemplates.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableAutoB.cpp">
+      <Filter>소스 파일\Auto&amp;Decltype</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableAutoA.cpp">
+      <Filter>소스 파일\Auto&amp;Decltype</Filter>
+    </ClCompile>
+    <ClCompile Include="Decltype.cpp">
+      <Filter>소스 파일\Auto&amp;Decltype</Filter>
+    </ClCompile>
+    <ClCompile Include="AliasDeclarationA.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="AliasDeclarationB.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeProblem.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="KeywordProblem.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolProblemA.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolProblemB.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolProblemC.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="BoolProblemD.cpp">
+      <Filter>소스 파일\Miscellaneous</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
